@@ -1,0 +1,91 @@
+/*CSS-properties: https://www.w3schools.com/css/default.asp*/
+
+body{
+    background-color: aquamarine;
+}
+
+#title-picture{
+    text-align: center;
+}
+
+img{
+    border-radius: 8px;    
+}
+
+#contents{
+    font-size: large;
+    padding-bottom: 0x;
+    margin-bottom: 0%;
+}
+
+p{
+    font-size: medium;
+    margin-top: 0%;
+}
+
+ul{
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+ol{
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+li{
+    font-size: large;
+}
+
+h1{
+    padding-bottom: 2px;
+    text-decoration: underline;
+    color: crimson; 
+    text-align: center; 
+}
+
+h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+h3{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+#Infos{
+    padding-bottom: 10px;
+}
+
+#Pizza-dough-ingredients{
+    padding-bottom: 15px;
+}
+
+div{
+    text-align: center;
+}
+#Pizza-preparation{
+    padding-top: 10px;
+}
+
+#Recipes{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#Contact{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#dough{
+    display: block;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 40%;
+}
