@@ -4,18 +4,8 @@ body{
     background-color: aquamarine;
 }
 
-#title-picture{
-    text-align: center;
-}
-
 img{
     border-radius: 8px;    
-}
-
-#contents{
-    font-size: large;
-    padding-bottom: 0x;
-    margin-bottom: 0%;
 }
 
 p{
@@ -57,29 +47,26 @@ h3{
     margin-bottom: 0%;
 }
 
-#Infos{
-    padding-bottom: 10px;
-}
-
-#Pizza-dough-ingredients{
-    padding-bottom: 15px;
-}
-
 div{
     text-align: center;
 }
-#Pizza-preparation{
-    padding-top: 10px;
-}
 
-#Recipes{
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
-#Contact{
+#title-picture{
     text-align: center;
-    padding-top: 30px;
+}
+
+#contents{
+    font-size: large;
+    padding-bottom: 0x;
+    margin-bottom: 0%;
+}
+
+#infos{
+    padding-bottom: 10px;
+}
+
+#pizza-dough-ingredients{
+    padding-bottom: 15px;
 }
 
 #dough{
@@ -89,3 +76,18 @@ div{
     margin-left: auto;
     border-radius: 40%;
 }
+
+#pizza-preparation{
+    padding-top: 10px;
+}
+
+#recipes{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#contact{
+    text-align: center;
+    padding-top: 30px;
+}
+
