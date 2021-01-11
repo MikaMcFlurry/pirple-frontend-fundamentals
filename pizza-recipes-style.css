@@ -42,7 +42,7 @@ h3{
 }
 
 .list-padding{
-    padding-left: 45px;
+    padding-left: 40px;
 }
 
 #infos{
@@ -57,7 +57,7 @@ h3{
     display: block;
     width: 10%;
     margin-right: auto;
-    margin-left: 10px;
+    margin-left: 30px;
     border-radius: 50%;
 }
 
@@ -94,6 +94,7 @@ h3{
 
 .ol-list{
     list-style-type: upper-roman;
+    margin-left: 40px;
 }
 
 p > span{
