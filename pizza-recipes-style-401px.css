@@ -1,9 +1,6 @@
-/*CSS-properties: https://www.w3schools.com/css/default.asp*/
-
 body{
-    background-color: aquamarine;
+    margin: 0 0;
 }
-
 p{
     font-size: medium;
     margin-top: 0%;
@@ -22,6 +19,7 @@ li{
     text-decoration: underline;
     color: crimson; 
     text-align: center; 
+    font-size: large;
 }
 
 h2{
@@ -39,6 +37,8 @@ h3{
 #title-picture{
     text-align: center;
     border-radius: 10px;
+    height: auto;
+    width: 300px;
 }
 
 .list-padding{
@@ -63,6 +63,15 @@ h3{
 
 #pizza-preparation{
     padding-top: 10px;
+}
+
+#ingredients-headline {
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+#how-pizza {
+    font-size: 25px;
 }
 
 #recipes{
@@ -108,4 +117,45 @@ p > #span5{
 .red-span{
     color: red;
     font-style: normal;
+}
+
+#contact {
+    flex-flow: inherit wrap;
+    flex-shrink: initial;
+    list-style: none;
+    background: none;
+    padding: 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 50px;
+    margin: 0;
+}
+
+#contact {
+    background: gray; 
+    height: 50px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+#contact:hover {
+    background: red;
+}
+
+@media (max-width: 749px) {
+    #dough-picture {
+        display: none;
+    }
+
+    #pizza-dough-preparation strong {
+        display: none;
+    }
+
+    .no-list-count {
+        list-style: none;
+    }
 }

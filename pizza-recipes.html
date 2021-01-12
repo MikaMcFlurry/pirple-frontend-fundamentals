@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="pizza-recipes-style.css">
+        <link rel="stylesheet" media="screen and (min-width: 1250px)" href="/pizza-recipes-style-1250px.css">
+        <link rel="stylesheet" media="screen and (max-width: 1249px)" href="/pizza-recipes-style-750px.css">
+        <link rel="stylesheet" media="screen and (max-width: 749px)" href="/pizza-recipes-style-401px.css">
+        <link rel="stylesheet" media="screen and (max-width: 400px)" href="/pizza-recipes-style-smaller-400px.css">
         <meta charset="utf-8">
         <!--Effective titel-->
         <title>Pizza recipes</title>
     </head>
 
     <body>
+        <header>
+            <ul id="ul-1" class="list">
+                <li><a href="#infos">Infos</a></li>
+                <li><a href="#pizza-dough-ingredients">Pizza dough ingredients</a></li>
+                <li><a href="#pizza-covering-ingredients">Pizza covering ingredients</a></li>
+                <li><a href="#pizza-dough-preparation">Dough preparation</a></li>
+                <li><a href="#pizza-preparation">Pizza preparation</a></li>
+                <li><a href="#recipes">Other recipes</a></li>
+                <li><a href="#contact">Contact infos</a></li>
+            </ul>
+        </header>
+
         <section class="center"> 
             <!--What the site is all about-->
             <h1 class="italic" id="headline">How to make the best selfmade pizza</h1>
@@ -16,26 +31,13 @@
             </a>
         </section>
 
-        <section class="contents">
-            <h3 class="list-padding italic">Contents:</h3>
-            <ul id="ul-1" class="list">
-                <li class="pizza-icon"><a href="#infos">Infos</a></li>
-                <li class="pizza-icon"><a href="#pizza-dough-ingredients">Pizza dough ingredients</a></li>
-                <li class="pizza-icon"><a href="#pizza-covering-ingredients">Pizza covering ingredients</a></li>
-                <li class="pizza-icon"><a href="#pizza-dough-preparation">Dough preparation</a></li>
-                <li class="pizza-icon"><a href="#pizza-preparation">Pizza preparation</a></li>
-                <li class="pizza-icon"><a href="#recipes">Other recipes</a></li>
-                <li class="pizza-icon"><a href="#contact">Contact infos</a></li>
-            </ul>
-        </section>
-
         <section id="infos" class="center">
             <h2 class="italic">Infos about pizza:</h2>
             <p>Pizza is a <span id="span1" class="red-span">savory dish</span> of <span id="span2">Italian origin</span> consisting of usually round, flattened base of <span id="span3">wheat-based dough</span> topped with tomatoes, cheese, and often various other ingredients, which is then baked at a <span id="span4">high temperature</span>, traditionally in a <span id="span5">wood-fired oven</span>.</p>
         </section>
 
         <!--Introduction of the ingredients-list-->
-        <h2 class="italic">You need following ingredients:</h2>
+        <h2 id="ingredients-headline" class="italic">You need following ingredients:</h2>
 
         <!--First unordered list for the dough ingredients-->
         <section id="pizza-dough-ingredients">
@@ -61,7 +63,7 @@
         </section>
 
         <!--Headliner for the Worksteps-list-->
-        <h2 class="italic">How to make the Pizza:</h2>
+        <h2 class="italic" id="how-pizza">How to make the Pizza:</h2>
 
         <!--First ordered list with the worksteps for the dough-->
         <section id="pizza-dough-preparation">
@@ -69,7 +71,7 @@
             <img id="dough-picture" src="https://www.jessicagavin.com/wp-content/uploads/2020/04/pizza-dough-20-1200.jpg" alt="Pizza dough"/>
                 <ol class="ol-list"><!--Using <strong> to highlight each workstep-->
                     <li><strong>Proof the Yeast:</strong> Place the warm water in the large bowl of a heavy duty stand mixer. Sprinkle the yeast over the warm water and let it sit for 5 minutes until the yeast is dissolved.</li>
-                    <li><strong>Make and knead the pizza dough:</strong>
+                    <li class="no-list-count"><strong>Make and knead the pizza dough:</strong>
                             <!--Second ordered list to simplify the reading-->
                          <ol class="ol-list list list-padding" id="ol-2">
                             <li>Add the flour, salt, sugar, and olive oil, and using the mixing paddle attachment, mix on low speed for a minute. Then replace the mixing paddle with the dough hook attachment.</li>
@@ -98,16 +100,16 @@
         <section id="recipes">
         <h3 class="list-padding" class="italic">Other great pizza recipes:</h3>
             <ul id="ul-4" class="list" class="pizza-icon">
-                <li class="pizza-icon"><a href="https://www.chefkoch.de/rezepte/2748851426971116/Pizza-Rucola-oder-Pizza-Barbecue-mit-Kaeserand.html">Barbeceu pizza with cheese</a></li>
-                <li class="pizza-icon"><a href="https://www.chefkoch.de/rezepte/2965811449002880/American-Pizza-Big-Pizza-Teig.html">American pizza</a></li>
-                <li class="pizza-icon"><a href="https://www.chefkoch.de/rezepte/2652081416580443/Pizza-quattro-formaggi-Pizza-bianca.html">Pizza quatro formaggi</a></li>
-                <li class="pizza-icon"><a href="https://www.chefkoch.de/rezepte/3195611475662544/Low-Carb-Pizza.html">Low carb pizza</a></li>
-                <li class="pizza-icon"><a href="https://www.chefkoch.de/rezepte/3357191499160358/Pizza-Kuchen.html">Pizza Chicago-style</a></li>
+                <li><a href="https://www.chefkoch.de/rezepte/2748851426971116/Pizza-Rucola-oder-Pizza-Barbecue-mit-Kaeserand.html">Barbeceu pizza with cheese</a></li>
+                <li><a href="https://www.chefkoch.de/rezepte/2965811449002880/American-Pizza-Big-Pizza-Teig.html">American pizza</a></li>
+                <li><a href="https://www.chefkoch.de/rezepte/2652081416580443/Pizza-quattro-formaggi-Pizza-bianca.html">Pizza quatro formaggi</a></li>
+                <li><a href="https://www.chefkoch.de/rezepte/3195611475662544/Low-Carb-Pizza.html">Low carb pizza</a></li>
+                <li><a href="https://www.chefkoch.de/rezepte/3357191499160358/Pizza-Kuchen.html">Pizza Chicago-style</a></li>
             </ul>
         </section>
 
         <section id="contact">
-        <a href="mailto:mikahertler@gmail.com">Contact me via mail</a>
+        <a href="mailto:mikahertler@gmail.com">Website by Mika Hertler</a>
         </section>
     </body>
 </html>
